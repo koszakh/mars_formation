@@ -1,0 +1,8 @@
+prefix=/home/konst/path_planning_vrep_simulation/install
+
+Name: path_planning_vrep_simulation
+Description: Description of path_planning_vrep_simulation
+Version: 0.1.0
+Cflags: -I/home/konst/path_planning_vrep_simulation/install/include
+Libs: -L/home/konst/path_planning_vrep_simulation/install/lib 
+Requires: message_runtime

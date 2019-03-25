@@ -1,0 +1,6 @@
+set(path_planning_vrep_simulation_SETUP_PY_VERSION "0.1.0")
+set(path_planning_vrep_simulation_SETUP_PY_SCRIPTS "")
+set(path_planning_vrep_simulation_SETUP_PY_PACKAGES "path_planning_vrep_simulation;path_planner;vrep_communicator")
+set(path_planning_vrep_simulation_SETUP_PY_PACKAGE_DIRS "src/path_planning_vrep_simulation;src/path_planner;src/vrep_communicator")
+set(path_planning_vrep_simulation_SETUP_PY_MODULES "")
+set(path_planning_vrep_simulation_SETUP_PY_MODULE_DIRS "")

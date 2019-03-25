@@ -1,0 +1,31 @@
+(cl:defpackage path_planning_vrep_simulation-msg
+  (:use )
+  (:export
+   "<ALLPATHES>"
+   "ALLPATHES"
+   "<ALL_XML_PATHS>"
+   "ALL_XML_PATHS"
+   "<FIELDOBJECTS>"
+   "FIELDOBJECTS"
+   "<GOALDATA>"
+   "GOALDATA"
+   "<MARKERDATA>"
+   "MARKERDATA"
+   "<OBSTACLEDATA>"
+   "OBSTACLEDATA"
+   "<PATH>"
+   "PATH"
+   "<POINT2D>"
+   "POINT2D"
+   "<ROBOTDATA>"
+   "ROBOTDATA"
+   "<ROBOTMOVEMENT>"
+   "ROBOTMOVEMENT"
+   "<STEP>"
+   "STEP"
+   "<WHEELROTATIONDATA>"
+   "WHEELROTATIONDATA"
+   "<XML_PATH>"
+   "XML_PATH"
+  ))
+

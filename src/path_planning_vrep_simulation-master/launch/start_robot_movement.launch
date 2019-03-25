@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="path_planning_vrep_simulation" name="test_path_from_xml" type="test_path_from_xml.py" output="screen"/>
+    <node pkg="path_planning_vrep_simulation" name="robot_movement_node" type="robot_movement_node.py" output="screen"/>
+</launch>

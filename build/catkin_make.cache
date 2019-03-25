@@ -1,0 +1,2 @@
+path_planning_vrep_simulation-master
+-DCATKIN_DEVEL_PREFIX=/home/konst/path_planning_vrep_simulation/devel -DCMAKE_INSTALL_PREFIX=/home/konst/path_planning_vrep_simulation/install -G Unix Makefiles
