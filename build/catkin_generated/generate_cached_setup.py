@@ -19,9 +19,9 @@ except ImportError:
             break
     from catkin.environment_cache import generate_environment_script
 
-code = generate_environment_script('/home/konst/path_planning_vrep_simulation/devel/env.sh')
+code = generate_environment_script('/home/konst/mars_formation/devel/env.sh')
 
-output_filename = '/home/konst/path_planning_vrep_simulation/build/catkin_generated/setup_cached.sh'
+output_filename = '/home/konst/mars_formation/build/catkin_generated/setup_cached.sh'
 with open(output_filename, 'w') as f:
     #print('Generate script for cached setup "%s"' % output_filename)
     f.write('\n'.join(code))

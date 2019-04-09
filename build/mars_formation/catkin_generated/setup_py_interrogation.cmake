@@ -1,0 +1,6 @@
+set(mars_formation_SETUP_PY_VERSION "0.1.0")
+set(mars_formation_SETUP_PY_SCRIPTS "")
+set(mars_formation_SETUP_PY_PACKAGES "mars_formation;vrep_communicator")
+set(mars_formation_SETUP_PY_PACKAGE_DIRS "src/mars_formation;src/vrep_communicator")
+set(mars_formation_SETUP_PY_MODULES "")
+set(mars_formation_SETUP_PY_MODULE_DIRS "")

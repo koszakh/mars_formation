@@ -1,0 +1,7 @@
+movement_speed: 3.2
+rotation_speed: 0.32
+pid_delay: 0.2
+angle_error: 2
+distance_error: 0.05
+turning_radius: 0.5
+step_size: 0.1

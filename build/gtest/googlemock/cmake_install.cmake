@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/konst/path_planning_vrep_simulation/install")
+  set(CMAKE_INSTALL_PREFIX "/home/konst/mars_formation/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/konst/path_planning_vrep_simulation/build/gtest/googlemock/gtest/cmake_install.cmake")
+  include("/home/konst/mars_formation/build/gtest/googlemock/gtest/cmake_install.cmake")
 
 endif()
 

@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="mars_formation" name="path_planner_node" type="path_planner_node.py" output="screen"/>
+    <node pkg="mars_formation" name="robot_movement_node" type="robot_movement_node.py" output="screen"/>
+    <rosparam command = "load" file = "$(find mars_formation)/ros_params.yaml" />
+</launch>
